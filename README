@@ -1,0 +1,6 @@
+Needs a webserver running recent PHP (apache/lighty+php-fcgi is what I recommend) and SQLite 3 (untested with other versions)
+and obviously neko
+
+haxe -neko scraper.n Scraper
+cp index.php /srv/http/blah
+
